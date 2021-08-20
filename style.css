@@ -1,0 +1,239 @@
+html{
+    overflow-x: hidden;
+}
+
+body{
+    background: #10101a;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+img{
+    max-height: 100%;
+}
+
+*{
+    outline: none !important;
+}
+
+a{
+    color: #ffc107;
+}
+
+a:hover{
+    color: #ffc107;
+    text-decoration: none;
+}
+
+.active{
+    color: #ffc107;
+}
+
+.header-top a img{
+    padding-left: 110px;
+    padding-top: 10px;  
+    width: 305px;
+    height: 60px;
+}
+
+.header-left{
+    width: 80px;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    background: #0c0c14;
+    border-right: 1px solid rgba(11,11,19,0.1);
+    z-index: 99999;
+}
+
+.header-left .nav-menu{
+    padding-top: 200px;
+    padding-bottom: 500px;
+    position: sticky;
+}
+
+.nav-menu li{
+    width: 100px;
+}
+
+.nav-menu li+li{
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.nav-link{
+    margin: 0;
+    padding: 10px 0;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: ease all 0.35s;
+}
+
+.nav-link i{
+    font-size: 37px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.top-fixed{
+    position: absolute;
+    padding: 13px 50px 0;
+    top: 0;
+    left: 500;
+    right: 0;
+    z-index: 1;
+}
+
+.social{
+    margin: auto;
+    font-size: 20px;
+}
+
+.social a i{
+    margin-right: 10px;
+    color: white;
+    width: 43px;
+    height: 43px;
+    border-radius: 50px;
+    border: 2px solid white;
+    padding: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.social a i:hover{
+    color: #10101a;
+    background: white;
+    text-decoration: none;
+    transition: 0.50s ease;
+}
+
+.banner{
+    position: absolute;
+    overflow: hidden;
+    padding-top: 150px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.banner .full-screen{
+    min-height: 100vh;
+}
+
+.box{
+    padding-top: 90px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.box h6{
+    color: white;
+    font-size: 20px;
+    font-weight: 400px;
+    margin: 0 0 20px;
+}
+
+.box h1{
+    color: white;
+    font-size: 80px;
+    font-weight: 700px;
+    line-height: 1;
+    margin: 0 0 10px;
+}
+
+.box .lead{
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.box .desc{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.box .btn-bar{
+    padding-top: 10px;
+}
+
+.box .btn-bar a{
+    font-size: 26px;
+    line-height: 1;
+    font-weight: 400;
+    position: relative;
+    text-decoration: none;
+    padding-left: 0;
+    transition: ease all 0.35s;
+}
+
+#profile{
+    font-family: 'Poppins', sans-serif;
+}
+
+.profile img{
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid white;
+    position: relative;
+}
+
+.profile .info{
+    padding-top: 10px;
+    color: white;
+    margin-left: 16%;
+}
+
+
+.profile .info h3{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.profile-info .title{
+    color: white;
+    padding-bottom: 10px;
+}
+
+.profile-info .title h3{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.info p{
+    margin: 0;
+    font-size: 16px;
+}
+
+.info-list{
+    padding-top: 15px;
+    color: white;
+}
+
+
+.info-list ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.info-list li{
+    padding: 4px 0;
+}
+
+.info-list label{
+    color: white;
+    margin: 0;
+    font-weight: 400;
+    padding-right: 10px;
+}
+
+hr.dashed {
+    border-top: 3px dashed #ffc107;
+}
