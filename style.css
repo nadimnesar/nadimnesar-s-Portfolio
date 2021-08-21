@@ -26,10 +26,6 @@ a:hover{
     text-decoration: none;
 }
 
-button:visited{
-    color: #ffc107;
-}
-
 .header-top a img{
     padding-left: 110px;
     padding-top: 10px;  
